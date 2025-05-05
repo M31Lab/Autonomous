@@ -26,7 +26,7 @@
 M31 Autonomous is an advanced AI coding assistant for VS Code that analyzes your codebase, creates and modifies code, runs commands, and controls browsers - all with your explicit permission. It combines the power of Large Language Models (LLMs) with a carefully designed agentic workflow to help you solve complex programming tasks while maintaining full control.
 
 <div align="center">
-<img src="assets/icons/demo.gif" alt="M31 Autonomous Demo" width="80%">
+<img src="assets/demo.gif" alt="M31 Autonomous Demo" width="80%">
 </div>
 
 ## ✨ Features
@@ -49,7 +49,7 @@ M31 Autonomous is an advanced AI coding assistant for VS Code that analyzes your
 2. Configure your preferred API provider in the extension settings
 3. Start your first task by writing a request in the chat box
 
-### Manual Installation
+### Manual Installation(Will Be Open Source Soon)
 
 ```bash
 git clone https://github.com/m31lab/Autonomous.git
@@ -130,7 +130,7 @@ M31 will suggest and execute the necessary commands (with your approval) to comp
 
 ### Personalization with Rules
 
-Create a `.cursorrules` file in your project root to customize M31's behavior:
+Create a `.m31rules` file in your project root to customize M31's behavior:
 
 ```
 Always use TypeScript strict mode.
@@ -173,8 +173,8 @@ Minimum Requirements:
 
 - [GitHub Repository](https://github.com/m31lab/Autonomous)
 - [Documentation](https://m31lab.github.io/)
-- [Discord Community](https://discord.gg/m31)
-- [Twitter](https://twitter.com/m31lab)
+<!-- - [Discord Community](https://discord.gg/m31) -->
+<!-- - [Twitter](https://twitter.com/m31lab) -->
 - [Issue Tracker](https://github.com/m31lab/Autonomous/issues)
 - [Changelog](CHANGELOG.md)
 
@@ -190,7 +190,8 @@ Special thanks to:
 - The VS Code team for their excellent extension API
 - The Anthropic and OpenAI teams for their groundbreaking LLMs
 - All our early users for valuable feedback and suggestions
-
+- Cline (@cline) for his invaluable guidance and support
+- And everyone who has contributed to the open-source ecosystem
 ---
 
 <div align="center">

@@ -1,0 +1,104 @@
+name: 🐛 Bug Report
+description: Report a bug to help improve M31 Autonomous
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! 
+        Please provide as much detail as possible to help us resolve the issue quickly.
+  
+  - type: input
+    id: version
+    attributes:
+      label: M31 Autonomous Version
+      description: What version of M31 Autonomous are you using?
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  
+  - type: input
+    id: vscode-version
+    attributes:
+      label: VS Code Version
+      description: What version of VS Code are you using?
+      placeholder: "1.84.0"
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating System
+      description: What operating system are you using?
+      options:
+        - Windows
+        - macOS
+        - Linux (Ubuntu/Debian)
+        - Linux (Fedora/RHEL)
+        - Linux (Arch)
+        - Linux (Other)
+        - Other
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: ai-provider
+    attributes:
+      label: AI Provider
+      description: Which AI provider are you using with M31 Autonomous?
+      options:
+        - Claude (Anthropic)
+        - OpenAI
+        - OpenRouter
+        - AWS Bedrock
+        - LM Studio
+        - Other
+    validations:
+      required: true
+  
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Provide a clear description of the bug.
+      placeholder: "When I try to use the AI commit feature, I get an error..."
+    validations:
+      required: true
+  
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+      placeholder: "I expected to see a commit message generated..."
+  
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. See error
+    validations:
+      required: true
+  
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: |
+        Please copy and paste any relevant log output. You can view logs by opening the VS Code output panel (Ctrl+Shift+U or Cmd+Shift+U) and selecting "M31-Autonomous".
+      render: shell
+  
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct.
+      options:
+        - label: I agree to follow the project's Code of Conduct
+          required: true 

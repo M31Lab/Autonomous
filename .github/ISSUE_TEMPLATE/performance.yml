@@ -1,0 +1,116 @@
+name: ⚡ Performance Issue
+description: Report performance problems or bottlenecks
+title: "[Performance]: "
+labels: ["performance", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a performance issue with M31 Autonomous!
+        
+        Performance issues can be complex. Please provide as much detail as possible to help us diagnose and fix the problem.
+  
+  - type: input
+    id: version
+    attributes:
+      label: M31 Autonomous Version
+      description: What version of M31 Autonomous are you using?
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  
+  - type: input
+    id: vscode-version
+    attributes:
+      label: VS Code Version
+      description: What version of VS Code are you using?
+      placeholder: "1.84.0"
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating System
+      description: What operating system are you using?
+      options:
+        - Windows
+        - macOS
+        - Linux (Ubuntu/Debian)
+        - Linux (Fedora/RHEL)
+        - Linux (Arch)
+        - Linux (Other)
+        - Other
+    validations:
+      required: true
+  
+  - type: input
+    id: system-specs
+    attributes:
+      label: System Specifications
+      description: What are your system specifications? (CPU, RAM, etc.)
+      placeholder: "Intel i7-10700K, 32GB RAM, SSD"
+    validations:
+      required: false
+  
+  - type: dropdown
+    id: ai-provider
+    attributes:
+      label: AI Provider
+      description: Which AI provider are you using with M31 Autonomous?
+      options:
+        - Claude (Anthropic)
+        - OpenAI
+        - OpenRouter
+        - AWS Bedrock
+        - LM Studio
+        - Other
+    validations:
+      required: true
+  
+  - type: textarea
+    id: performance-issue
+    attributes:
+      label: Performance Issue Description
+      description: Describe the performance issue you're experiencing.
+      placeholder: "The extension becomes slow when processing large files..."
+    validations:
+      required: true
+  
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this performance issue?
+      placeholder: |
+        1. Open a large project with X files
+        2. Run the AI Commit feature
+        3. Notice significant lag
+    validations:
+      required: true
+  
+  - type: textarea
+    id: performance-data
+    attributes:
+      label: Performance Data
+      description: If available, provide any performance data or measurements.
+      placeholder: "Operation took X seconds, CPU usage spiked to Y%"
+    validations:
+      required: false
+  
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: |
+        Please copy and paste any relevant log output. You can view logs by opening the VS Code output panel (Ctrl+Shift+U or Cmd+Shift+U) and selecting "M31-Autonomous".
+      render: shell
+  
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct.
+      options:
+        - label: I agree to follow the project's Code of Conduct
+          required: true 

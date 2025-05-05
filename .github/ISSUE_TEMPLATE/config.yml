@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🤔 Questions and Help
+    url: https://discord.gg/m31
+    about: Please ask questions and seek help in our Discord community.
+  - name: 💬 General Discussion
+    url: https://github.com/m31lab/Autonomous/discussions
+    about: For general discussions, ideas, and community interaction.
+  - name: 📝 Documentation
+    url: https://m31lab.github.io/
+    about: Check our documentation for guides and reference information. 
