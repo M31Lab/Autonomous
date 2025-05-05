@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![M31 Logo](assets/icons/icon.png)
+![M31 Logo](assets/icon.png)
 
 [![VS Code Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/m31lab.m31-autonomous?color=blue&label=VS%20Code%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=m31lab.m31-autonomous)
 [![VS Code Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/m31lab.m31-autonomous?color=blue&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=m31lab.m31-autonomous)
