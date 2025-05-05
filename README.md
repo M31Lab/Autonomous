@@ -4,12 +4,12 @@
 
 ![M31 Logo](assets/icon.png)
 
-[![VS Code Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/m31lab.m31-autonomous?color=blue&label=VS%20Code%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=m31lab.m31-autonomous)
-[![VS Code Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/m31lab.m31-autonomous?color=blue&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=m31lab.m31-autonomous)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Docs](https://img.shields.io/badge/docs-online-brightgreen.svg)](https://m31lab.github.io/)
-[![Discord](https://img.shields.io/discord/1234567890?color=7289DA&label=discord&logo=discord&logoColor=white)](https://discord.gg/m31)
-[![CI](https://github.com/m31lab/Autonomous/actions/workflows/ci.yml/badge.svg)](https://github.com/m31lab/Autonomous/actions/workflows/ci.yml)
+[![VS Code Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/m31lab.m31-autonomous?color=blue&label=VS%20Code%20Marketplace&logo=visual-studio-code&style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=m31lab.m31-autonomous)
+[![VS Code Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/m31lab.m31-autonomous?color=blue&logo=visual-studio-code&style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=m31lab.m31-autonomous)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-online-brightgreen.svg?style=for-the-badge)](https://m31lab.github.io/)
+[![Discord](https://img.shields.io/discord/1234567890?color=7289DA&label=discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/m31)
+[![CI](https://github.com/m31lab/Autonomous/actions/workflows/ci.yml/badge.svg?style=for-the-badge)](https://github.com/m31lab/Autonomous/actions/workflows/ci.yml)
 
 **An intelligent AI coding assistant with agent capabilities that lives right in your IDE**
 
