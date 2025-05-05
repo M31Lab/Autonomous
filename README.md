@@ -9,7 +9,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Docs](https://img.shields.io/badge/docs-online-brightgreen.svg?style=for-the-badge)](https://m31lab.github.io/)
 [![Discord](https://img.shields.io/discord/1234567890?color=7289DA&label=discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/m31)
-[![CI](https://github.com/m31lab/Autonomous/actions/workflows/ci.yml/badge.svg?style=for-the-badge)](https://github.com/m31lab/Autonomous/actions/workflows/ci.yml)
 
 **An intelligent AI coding assistant with agent capabilities that lives right in your IDE**
 
